@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Weiterleitung zur Umfrage</title>
+</head>
+<body>
+  <p>Du wirst zur Umfrage weitergeleitet…</p>
+
+  <script>
+    var links = [
+      "https://de.wikipedia.org/wiki/Roboter",
+      "https://de.wikipedia.org/wiki/Humanoider_Roboter",
+      "https://de.wikipedia.org/wiki/Serviceroboter"
+    ];
+
+    var randomIndex = Math.floor(Math.random() * links.length);
+    window.location.href = links[randomIndex];
+  </script>
+</body>
+</html>
